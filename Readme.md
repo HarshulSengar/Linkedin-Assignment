@@ -15,14 +15,12 @@
 ## Features
 
 - Signup/Login
-- Create Post (+ optional image, see code comments)
+- Create Post
 - Edit/Delete own posts
 - Like posts
 - Public feed (latest first)
 - Responsive design
 
-## Optional
 
-- Like/comment, image upload (integrate Cloudinary or similar to enable)
-- Profile page for each user (link from post card, route to `/user/:id`), see code for extension
+
 
