@@ -1,50 +1,28 @@
-LinkedIn Clone (MERN Stack)
-How to Run
-Backend
+# LinkedIn Clone (MERN Stack)
 
-Go to the server/ directory.
+## How to run
 
-Create a .env file with the following variables:
+### Backend
+- In `server/`, create `.env` with `MONGO_URI` and `JWT_SECRET`.
+- Install deps: `npm install`
+- Start: `node index.js`
 
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+### Frontend
+- In `client/`, install deps: `npm install`
+- Start: `npm start`
+- Visit: http://localhost:3000
 
+## Features
 
-Install dependencies:
+- Signup/Login
+- Create Post (+ optional image, see code comments)
+- Edit/Delete own posts
+- Like posts
+- Public feed (latest first)
+- Responsive design
 
-npm install
+## Optional
 
+- Like/comment, image upload (integrate Cloudinary or similar to enable)
+- Profile page for each user (link from post card, route to `/user/:id`), see code for extension
 
-Start the server:
-
-node index.js
-
-Frontend
-
-Go to the client/ directory.
-
-Install dependencies:
-
-npm install
-
-
-Start the frontend:
-
-npm start
-
-
-Open your browser and visit: http://localhost:3000
-
-Features
-
-User authentication (Signup/Login)
-
-Create posts (with optional image upload — see code comments)
-
-Edit and delete own posts
-
-Like posts
-
-Public feed showing latest posts first
-
-Responsive design for mobile and desktop
